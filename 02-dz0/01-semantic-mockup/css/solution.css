@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    display: block;
+    position: relative;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    padding: 10px;
+    font-size: 32pt;
+}
+
+nav {
+    display: block;
+    position: relative;
+    padding: 10px;
+    background-color: orange;
+    text-align: center;
+}
+
+nav a {
+    padding: 5px;
+    color: white;
+    font-size: 24pt;
+}
+
+main {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
+
+article {
+    display: block;
+    margin: 5px auto;
+    padding: 10px 10px 30px;
+    background-color: blue;
+}
+
+ul, ol {
+    font-size: 16pt;
+}
+
+article h2 {
+    margin: revert;
+    font-size: 26pt;
+}
+
+footer {
+    position: relative;
+    display: block;
+    padding: 10px;
+    background-color: magenta;
+    color: white;
+    text-align: center;
+    font-size: 32pt;
+}
